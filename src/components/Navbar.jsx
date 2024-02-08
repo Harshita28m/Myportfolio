@@ -26,7 +26,7 @@ function Navbar() {
   return (
     <>
       <div className="navbarcon flex justify-between items-center px-20 py-6 bg-transparent z-40 text-white lg:px-6 fixed w-full">
-        <h1 className="text-4xl  font-bold ">Reayhs</h1>
+        <h1 className="text-4xl  font-bold ">My Profile</h1>
 
         <nav
           className={` flex justify-center items-center gap-x-10 ${
@@ -62,7 +62,7 @@ function Navbar() {
           </div>
           <div className="btn">
             <button className="border-[1px] border-white border-solid py-2 px-4 hover:bg-white hover:text-black font-bold">
-              <a href="https://www.linkedin.com/in/harshita-marwaha-478b3a227/">Let's Connect</a>
+              <a href="https://www.linkedin.com/in/harshita-marwaha-478b3a227/" target="_blank">Let's Connect</a>
             </button>
           </div>
         </nav>
