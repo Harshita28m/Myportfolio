@@ -55,13 +55,13 @@ swiper {
 
 @keyframes astronout1 {
   0% {
-    left: 50%;
-    top: 35%;
+    left: 75%;
+    top: 45%;
     
   }
 
   100% {
-    left: 50%;
+    left: 75%;
     top: 35%;
   }
 }
