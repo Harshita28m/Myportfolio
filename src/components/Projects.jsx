@@ -62,21 +62,9 @@ function Projects() {
     <>
       <div id="projects" className="projects  bg-[#171717] text-white py-20  ">
         <h1 className="text-center text-4xl font-bold">Projects</h1>
-        <p className="text-center max-w-[1000px] lg:px-6 mx-auto text-[#939191] text-xl">
+        <p className="text-center max-w-[1000px] lg:px-6 mx-auto text-[#939191] text-xl mt-4">
         "Innovative digital creations showcasing expertise and creativity."
         </p>
-        <div className="flex justify-center items-center gap-4 mt-12 mb-2 ">
-          <button
-            onClick={() => setDurum(1)}
-            className={`font-bold text-[19px] border-2  bg-[#171717] rounded-[6px] p-[4px] ${
-              durum == 1 ? "bg-[linear-gradient(90deg,#b004b0,#38097a)]" : ""
-            }`}
-          >
-            Projects
-          </button>
-          
-      
-        </div>
         <div className="grid grid-cols-3 p-10 justify-center items-center gap-8 lg:grid-cols-2 tl:grid-cols-1  ">
           {durum === 1
             ? projects.map((item, i) => <ProjectCard key={i} item={item} />)

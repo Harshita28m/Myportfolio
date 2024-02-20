@@ -32,6 +32,7 @@ function Skills() {
               <SwiperSlide className="bg-[#171717] " >
                 {" "}
                 <RadialProgressbar no={0} />
+                
 
               </SwiperSlide>
               <SwiperSlide className=" bg-[#171717]">
