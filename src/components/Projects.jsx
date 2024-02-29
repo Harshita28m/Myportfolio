@@ -65,7 +65,7 @@ function Projects() {
         <p className="text-center max-w-[1000px] lg:px-6 mx-auto text-[#939191] text-xl mt-4">
         "Innovative digital creations showcasing expertise and creativity."
         </p>
-        <div className="grid grid-cols-3 p-10 justify-center items-center gap-8 lg:grid-cols-2 tl:grid-cols-1  ">
+        <div className="grid grid-cols-3 p-10 justify-center items-center gap-8 lg:grid-cols-2 tl:grid-cols-1">
           {durum === 1
             ? projects.map((item, i) => <ProjectCard key={i} item={item} />)
             : null}
