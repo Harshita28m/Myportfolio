@@ -11,3 +11,9 @@
 ![Ekran görüntüsü 2023-01-28 221901](https://user-images.githubusercontent.com/104009655/215286846-86706df7-37a1-4764-b4b7-6aafa74c2a18.png)
 
 ![Ekran görüntüsü 2023-01-28 221504](https://user-images.githubusercontent.com/104009655/215286732-3522a344-a21f-4a77-9c8f-dd72ce881288.png)
+
+
+### git commands push steps
+git add .
+git commit -m ""
+git push
