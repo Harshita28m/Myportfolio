@@ -17,7 +17,7 @@ function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://formspree.io/harshitamarwaha32@gmail.com", {
+      const response = await fetch("https://formspree.io/f/xjvndwlq", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
