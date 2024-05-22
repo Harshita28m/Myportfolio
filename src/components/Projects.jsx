@@ -10,8 +10,7 @@ import "../styles.css";
 import ProjectCard from "./ProjectCard";
 
 function Projects() {
-  const [durum, setDurum] = useState(1);
-
+ 
   const projects = [
     {
       id: 1,
@@ -66,9 +65,10 @@ function Projects() {
         "Innovative digital creations showcasing expertise and creativity."
         </p>
         <div className="grid grid-cols-3 p-10 justify-center items-center gap-8 lg:grid-cols-2 tl:grid-cols-1">
-          {durum === 1
-            ? projects.map((item, i) => <ProjectCard key={i} item={item} />)
-            : null}
+          {
+            projects.map((item, i) => <ProjectCard key={i} item={item} />)
+          }
+            
         </div>
         
         
